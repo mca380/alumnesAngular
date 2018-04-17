@@ -4,7 +4,7 @@ function validarDni(inputDni){ //Aquesta funció comprova que el DNI sigui vàli
  
     var dniPatro = /^[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKET]{1}$/i;
 
-    var str = inputDni.toString().toUpperCase();
+    var str = inputDni.toString().toUpperCase();//Passa el text introduit per l'usuari a String i a majúscules perque en sigui més fàcil la comprovació. 
 
     
     if (!dniPatro.test(str)) return false;
