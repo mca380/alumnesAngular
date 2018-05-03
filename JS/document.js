@@ -51,10 +51,3 @@ function ($scope) {
     
     
 });
-
-$(function(nota) {
-    $('#table td:last-child:contains(1)').closest('tr').css('background-color', 'red');
-    $('#table td:last-child:contains(2)').closest('tr').css('background-color', 'blue');
-    $('#table td:last-child:contains(3)').closest('tr').css('background-color', 'green');
-    // Así sucesivamente hasta llegar al 10
-  });
